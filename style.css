@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+img {
+  width: 130px;
+  height: 100px;
+  margin: 7px;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.sidebar {
+  margin: 0px;
+  padding: 1rem 1rem;
+  width: 200px;
+  color: white;
+  text-align: center;
+  background-color: #000000;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: white;
+  font-weight: bold;
+  text-transform: 0 ease;
+}
